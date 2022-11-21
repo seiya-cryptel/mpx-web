@@ -1,0 +1,18 @@
+
+.content_div {
+    width:90%;
+    max-width:1000px;
+    padding:20px;
+    margin:0 auto;
+}
+.main_title {
+    padding:8px 8px 20px 20px;
+    border-left: solid 8px #196c9e;
+    border-bottom: solid 5px #196c9e;
+    font-size: 20px;
+}
+.sub_title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}

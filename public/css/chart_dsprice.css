@@ -1,0 +1,91 @@
+/* dsprice 2020-02-25 */
+
+.chart_dsprice {
+    /*width: 95%;*/
+    height: 500px;
+}
+.chart_dsbalance {
+    width: calc(100% - 20px);
+    height: 600px;
+}
+
+.chart_dsprice .amcharts-export-menu a,
+.chart_dsbalance .amcharts-export-menu a {
+    position: absolute;
+    top: -5px;
+    right:0;
+    text-decoration: none;
+    border:2px solid;
+    border-color:#aaaaaa #444444 #444444 #aaaaaa;
+    /* background-color: #112266; */
+    background-color: #3071a9;
+    border-color: #285e8e;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.chart_dsprice a:hover,
+.chart_dsbalance a:hover {
+    opacity: 0.85;
+}
+/*
+.amcharts-export-menu {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+}
+*/
+.chart_dsprice .amcharts-export-menu ul li {
+	text-align: right;
+	position: absolute;
+  	top: -60px;
+  	right: 20px;
+}
+
+/* onemonthprice　table */
+#onemonthprice_area {
+	text-align: center;
+	
+}
+#onemonthprice_area table {
+	margin: 20px auto 40px;
+}
+
+#table_onemonthprice {
+	font-size: 15px;
+}
+#table_onemonthprice th,
+#table_onemonthprice td {
+	border: 1px solid #bbb;
+	padding: 4px 14px;
+	font-weight: normal;
+}
+
+#table_onemonthprice th.table_title {
+	background-color: #eee;
+	font-weight: bold;
+}
+
+#table_onemonthprice .table_title span {
+	margin-left: 1.5em;
+}
+
+#table_onemonthprice tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}

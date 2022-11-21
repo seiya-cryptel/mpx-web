@@ -1,0 +1,114 @@
+
+/* ==========================================================================
+   top.css last-up 20160607
+   ========================================================================== */
+#top_main_img {
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 0;
+}
+#top_main_img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* main_menubox */
+.topmenu_box {
+	padding-bottom: 15px;
+	float: left;
+}
+.explain_box {
+	border: solid 2px #dcdcdc;
+}
+.explain_box h1 {
+	padding: 10px;
+	margin: 0;
+	font-size: 14px;
+	color: #fff;
+	background-color: #112266;	
+	border-bottom: solid 2px #dcdcdc;
+    text-align: center;
+}
+.explain_box h1.top_news {
+	padding: 10px;
+	margin: 0;
+	font-size: 14px;
+	color: #fff;
+	background-color: #3498db;	
+	border-bottom: solid 2px #dcdcdc;
+    text-align: center;
+}
+.explain_box img {
+	width: 100%;
+	height: auto;	
+}
+
+.explain_txt_area {
+	margin: 10px 8px;
+}
+.explain_txt_area p {
+	margin-top: 5px;	
+	font-size: 14px;
+	text-align: left;
+}
+.top_btn_area {
+	text-align: right;
+}
+.top_btn_area .btn {
+	font-size: 14px;
+	padding: 5px 20px;
+	margin-right: 10px;
+	border-radius: 0;	
+}
+
+
+/* news_list */
+#top_news_box {
+	margin-bottom: 30px;	
+}
+
+#news_list {
+	margin: 0 8px;
+	font-size: 14px;
+	text-align: left;
+}
+#news_list dt {
+	padding-top: 7px;
+	color: #3498db;	
+	font-weight: bold;
+}
+#news_list dt span.label {
+	margin-left: 10px;
+}
+#news_list dd {
+    line-height: 1.2;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	border-bottom: dotted 1px #dcdcdc;
+}
+#news_list a {
+    color: #333;
+}
+#news_list a:hover, a:focus {
+	color: #000;
+}	
+
+.link_news {
+	margin: 10px;
+	text-align: right;
+	font-size: 14px;
+}
+.link_news a {
+	color: #000;
+}
+
+
+/* twitter */
+#top_tweet_box {
+	margin-bottom: 20px;	
+}
+
+
+
+

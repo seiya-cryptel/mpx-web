@@ -1,0 +1,36 @@
+#chartdiv_demand_forecast {
+    width: 95%;
+    height: 500px;
+}
+#chartdiv_demand_forecast .amcharts-export-menu a {
+    position: absolute;
+    top: -50px;
+    right:0;
+    text-decoration: none;
+    border:2px solid;
+    border-color:#aaaaaa #444444 #444444 #aaaaaa;
+    background-color: #3071a9;
+    border-color: #285e8e;
+    color: #fff;
+    opacity: 0.85;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#chartdiv_demand_forecast a:hover {
+    opacity: 1;
+}

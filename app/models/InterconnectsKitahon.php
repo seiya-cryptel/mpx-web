@@ -1,0 +1,26 @@
+<?php
+
+class InterconnectsKitahon extends \Phalcon\Mvc\Model
+{
+
+    public function initialize()
+    {
+        
+    }
+
+    public function getSource()
+    {
+        return "tt34_interconnection_h";
+    }
+
+    public function afterFetch()
+    {
+        
+    }
+
+    public function beforeSave()
+    {
+        
+    }
+
+}
